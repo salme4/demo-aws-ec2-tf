@@ -12,7 +12,7 @@ resource "aws_instance" "terraform-test" {
   ]
   subnet_id="subnet-026cbdf685ee58384"
   tags = {
-    Name = "dave-test"
+    Name = "terraform-cloud-ec2"
   }
 }
 
