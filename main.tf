@@ -2,7 +2,7 @@ provider aws {
   region= "ap-northeast-1"
 }
 
-resource "aws_instance" "terraform-test" {
+resource "aws_instance" "terraform-test2" {
   ami = "ami-066b76d09a3d3ff4e" 
   instance_type = "t2.micro"
   key_name = "asgard-test-ec2-ssh-key"
